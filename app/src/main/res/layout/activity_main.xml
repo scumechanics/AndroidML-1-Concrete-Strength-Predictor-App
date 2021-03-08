@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9c46a"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txt_appTitle"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/black_ops_one"
+        android:gravity="center"
+        android:text="Concrete Strength Predictor"
+        android:textColor="#264653"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <Button
+        android:id="@+id/btn_Start"
+        android:layout_width="201dp"
+        android:layout_height="47dp"
+        android:background="#264653"
+        android:text="Start the App"
+        android:textColor="#E9C46A"
+        android:textSize="18sp"
+        app:backgroundTint="#264653"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_appTitle"
+        app:layout_constraintVertical_bias="0.501" />
+</androidx.constraintlayout.widget.ConstraintLayout>
