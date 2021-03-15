@@ -1,1 +1,1 @@
-# ML-App3-Android-Concrete-Strength-Predictor
+# Android AI App to predict the strength of the concrete
